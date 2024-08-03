@@ -13,6 +13,12 @@ class Square:
 
 
 	def board_defined(self, value: int) -> None:
+		"""
+		Determine if the square is defined by the board.
+
+		Args:
+			value (int): The value of the square.
+		"""
 		self.value = value
 		self.defined = True
 
