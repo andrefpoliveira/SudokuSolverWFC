@@ -13,8 +13,6 @@ The Wave Function Collapse (WFC) algorithm was developed by Maxim Gumin. For a m
 4. Select an state and propagate the selection to the cubes in the same row, column and square
 
 # Examples
-Some examples can be found in [tests](https://github.com/andrefpoliveira/SudokuSolverWFC/tree/main/tests). All of them were extracted from [Web Sudoku](https://www.websudoku.com/).
+Some examples can be found in [puzzles](https://github.com/andrefpoliveira/SudokuSolverWFC/tree/main/puzzles). All of them were extracted from [Sudoku.com](https://sudoku.com/). There is one puzzle for each of the available difficulties: Easy, Medium, Hard, Expert, Master, and Extreme.
 
-Each test consists of:
-- 1 Line with the test number
-- 9 lines with 9 numbers each (the board, 0 being empty)
+Each test contains the initial board. All the empty spaces are represented by zeros.

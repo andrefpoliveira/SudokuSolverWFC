@@ -1,10 +1,6 @@
-from board import Board
+from src.solver import Solver
 
-with open("tests/evil") as f:
-    lines = f.readlines()
-    board = [[int(i) for i in l.strip()] for l in lines[1:]]
-
-b = Board(board)
-b.print_grid()
-b.solve()
-b.print_grid()
+s = Solver()
+s.solve(
+	'puzzles/easy.txt'
+)
